@@ -14,13 +14,12 @@ export const returnShirt = () =>{
     }
 }
 
-const initialShopState = {
-    shirt: 90, //90-1 = 89
-    jeans: 100,
-    totalsell: 0 //0+1000 = 1000
+const initialShirtState = {
+    shirt: 90, 
+    totalshirtsell: 0 
 }
 
-export const shirtReducer = (state=initialShopState, action) =>{
+export const shirtReducer = (state=initialShirtState, action) =>{
     if(action.type === 'buy-a-shirt'){
         return {...state, 
             shirt: state.shirt-1, 
