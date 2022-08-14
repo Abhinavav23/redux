@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import { buyShirt } from '../redux/shirt/shirtAction';
 
-class ShopusingConect extends Component {
-    
+class ShopusingConect extends Component { 
     constructor(props){
         super(props)
     }

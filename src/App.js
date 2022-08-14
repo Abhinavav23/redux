@@ -8,6 +8,7 @@ import { ShirtShop } from './Component/ShirtShop';
 import { JeanShop } from './Component/JeansShop';
 import { ShopDetails } from './Component/ShopDetails';
 import ShopusingConect from './Component/ShopusingConect';
+import { Login } from './Component/Login';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         {/* <Shop/>
         <Buy/>
         <Return/> */}
-        {/* <ShirtShop/>
-        <JeanShop/> */}
-        <ShopusingConect/>
+        {/* <ShirtShop/> */}
+        {/* <JeanShop/> */}
+        {/* <ShopusingConect/> */}
+        <Login/>
         </header>
       </div>
     </Provider>
